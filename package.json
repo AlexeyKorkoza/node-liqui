@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/AlexeyKorkoza/node-liqui#readme",
   "dependencies": {
-    "angularjs-dropdown": "^1.0.3",
     "babel-runtime": "^6.26.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
