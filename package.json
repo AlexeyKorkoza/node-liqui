@@ -1,6 +1,6 @@
 {
   "name": "node-liqui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An unofficial Node.js wrapper for the Liqui exchange.",
   "main": "./src/index.js",
   "scripts": {
