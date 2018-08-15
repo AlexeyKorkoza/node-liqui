@@ -1,0 +1,41 @@
+{
+  "name": "node-liqui",
+  "version": "0.0.0",
+  "description": "An unofficial Node.js wrapper for the Liqui exchange.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "babel ./src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKorkoza/node-liqui.git"
+  },
+  "keywords": [
+    "liqui",
+    "node"
+  ],
+  "author": "Alexey Korkoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexeyKorkoza/node-liqui/issues"
+  },
+  "homepage": "https://github.com/AlexeyKorkoza/node-liqui#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  }
+}
